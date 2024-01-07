@@ -1,0 +1,64 @@
+/* Assigning the font of the website */
+* {
+  font-family: 'Merriweather', serif;
+}
+/* Customizing the Banner */
+.banner {
+  position: relative;
+  margin: 0px auto 50px;
+  color: white;
+  background-image: url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+}
+
+.center-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-text h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.center-text h1 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Customizing Offer Content */
+.offer-content {
+  width: 1320px;
+  height: 600px;
+  margin: 0px auto 40px;
+  text-align: center;
+}
+
+.offer-content h1 {
+  font-family: Inter;
+  color: #f00;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.offer-content h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-content h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
