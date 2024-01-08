@@ -5,7 +5,7 @@
 /* Customizing the Banner */
 .banner {
   position: relative;
-  margin: 0px auto 50px;
+  margin: 0px auto 100px;
   color: white;
   background-image: url(../resources/Banner\ Image.png);
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 .offer-content {
   width: 1320px;
   height: 600px;
-  margin: 0px auto 50px;
+  margin: 0px auto 100px;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@
 .party-content {
   width: 1320px;
   height: 600px;
-  margin: 0px auto 50px;
+  margin: 0px auto 100px;
   background-image: url('../resources/Vectorrr.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -110,6 +110,50 @@
 
 .party-year {
   padding: 120px;
+}
+
+/* Customizing  */
+
+/* Customizing Portfolio Content */
+.portfolio-content {
+  width: 1320px;
+  height: 850px;
+  margin: 0px auto 200px;
+}
+
+.portfolio-description h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.portfolio-description h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.portfolio-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.portfolio-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.img-handler {
+  width: 430px;
+  height: 360px;
 }
 
 /* Customizing Location Container */
@@ -158,7 +202,7 @@
 .subscribe-container {
   width: 1320px;
   height: 616px;
-  margin: 0px auto 50px;
+  margin: 0px auto 100px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   text-align: center;
@@ -220,4 +264,58 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
+}
+
+/* Customizing footer content */
+footer {
+  width: 1320px;
+  height: 616px;
+  margin: 0px auto 50px;
+  background: #070211;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 100px 50px 10px 50px;
+}
+
+hr {
+  width: 1210px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.social-media {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media img {
+  padding-left: 20px;
+  margin-top: 30px 0 0 30px;
+}
+
+.copyright {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 55px 10px 55px;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+.btn-unsubscribe {
+  color: #fff;
+  background-color: #070211;
+  border-style: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }
