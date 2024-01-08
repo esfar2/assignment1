@@ -112,8 +112,79 @@
   padding: 120px;
 }
 
-/* Customizing  */
+/* Customizing  Coming Soon Content*/
+.coming-soon {
+  width: 1320px;
+  height: 600px;
+  margin: 0px auto 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
 
+.coming-soon-details h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.coming-soon-details h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.coming-soon-details p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.coming-soon-image {
+  width: 380px;
+  height: 380px;
+  border-radius: 90%;
+  border: 15px solid #f00;
+  position: relative;
+  padding: 15px;
+}
+
+.coming-soon-image-details {
+  width: 350px;
+  height: 350px;
+  border-radius: 90%;
+  background: url('../resources/Ellipse\ 1.png'),
+    lightgray -91.279px 0px / 150.038% 100% no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 29px;
+  left: 17px;
+}
+
+.coming-soon-footer h1 {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.coming-soon-footer p {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
 /* Customizing Portfolio Content */
 .portfolio-content {
   width: 1320px;
